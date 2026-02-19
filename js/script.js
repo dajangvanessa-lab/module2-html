@@ -1,32 +1,38 @@
-console.log("js/script.js");
-
-const themeToggle = document.getElementById("themeToggle");
-themeToggle.addEventListener("click", function() {
-    document.body.classList.toggle("dark-mode");
-});
-
-
-const toggleSkills = document.getElementById("toggleSkills");
-const skillsSection = document.getElementById("skillsSection");
-
-toggleSkills.addEventListener("click", function() {
-    skillsSection.classList.toggle("hidden");
-});
+console.log("js/script.js")
 
 const submitBtn = document.getElementById("submitBtn");
 
-submitBtn.addEventListener("click", function (event) {
-    // Prevent the form from actually submitting/reloading the page
-    event.preventDefault();
+submitBtn.addEventListener("click", function(event) {
+  event.preventDefault();
 
-    // Get the values from the input fields
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
+  const nameValue = document.getElementById("name").value.trim();
+  const emailValue = document.getElementById("email").value.trim();
 
-    // Basic Form Validation
-    if (name === "" || email === "") {
-        alert("Please fill in all required fields.");
-    } else {
-        alert("Form submitted successfully!");
-    }
+  if (nameValue === "" || emailValue === "") {
+    alert("Please fill in all required fields.");
+  } else {
+    alert("Form submitted successfully!");
+  }
+});
+
+const themeToggle = document.getElementById("themeToggle");
+themeToggle.addEventListener("click",function(){
+document.body.classList.toggle("dark-mode");
+});
+
+const toggleSkills = document.getElementById("toggleSkills");
+const skillsSection = document.getElementById("skillsSection");
+toggleSkills.addEventListener("click",function(){
+skillsSection.classList.toggle("hidden");
+});
+
+const themeBtn = document.getElementById("themeToggle");
+
+themeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("Dark-mode");
+ if (document.body.classList.contains("Dark-mode")) {
+    themeBtn.textContent = "Toggle light mode";
+  } else {
+    themeBtn.textContent = "Toggle dark Mode";
+  }
 });

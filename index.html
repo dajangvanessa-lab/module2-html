@@ -12,85 +12,88 @@
         <section>
             <h1>Vanessa Dajang</h1>
             <p>IT Student | Web Systems and Technologies</p>
+            <button id="themeToggle">Toggle Dark Mode</button>
         </section>
     </header>
 
     <main>
         <div class="container">
-...
-</div>
-         <section class="card">
-            <h2>About Me</h2>
-            <img src="images/profile.jpg" alt="Profile photo">
-            <p>I am a hardworking student.</p>
-            
-            <p>Email: <a href="mailto:vanessada758@gmail.com">vanessada758@gmail.com</a><br>
-            GitHub: <a href="https://github.com/dajangvanessa-lab" target="_blank">github.com</a></p>
-        </section>
+            <section class="card">
+                <h2>About Me</h2>
+                <img src="images/profile.jpg" alt="Profile photo">
+                <p>I am a hardworking student.</p>
+                
+                <p>Email: <a href="mailto:vanessada758@gmail.com">vanessada758@gmail.com</a><br>
+                GitHub: <a href="https://github.com/dajangvanessa-lab" target="_blank">github.com</a></p>
+            </section>
 
-        <section class="card">
-            <h2>Skills</h2>
-            <ul>
-                <li>Web Development
-                    <ul>
-                        <li>Frontend
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                            </ul>
-                        </li>
-                        <li>Backend</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+            <button id="toggleSkills">Show/Hide Skills</button>
+            <section class="card" id="skillsSection">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Web Development
+                        <ul>
+                            <li>Frontend
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </li>
+                            <li>Backend</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
 
-       <section class="card">
-            <h2>Education</h2>
-            <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse;">
-                <tr>
-                    <th>Program</th>
-                    <th>Institution</th>
-                    <th>Year Graduated</th>
-                </tr>
-                <tr>
-                    <td>BS Information Technology</td>
-                    <td>USTP CDO Campus</td>
-                    <td>2028</td>
-                </tr>
-                <tr>
-                    <td>SeniorSchool</td>
-                    <td>Indahag National High School</td>
-                    <td>2019</td>
-                </tr>
-                <tr>
-                    <td>High School</td>
-                    <td>Indahag National High School</td>
-                    <td>2023</td>
-                </tr>
-                <tr>
-                    <td>BS Information Technology</td>
-                    <td>USTP CDO Campus</td>
-                    <td>2029</td>
-                </tr>
-            </table>
-        </section>
+            <section class="card">
+                <h2>Education</h2>
+                <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse;">
+                    <tr>
+                        <th>Program</th>
+                        <th>Institution</th>
+                        <th>Year Graduated</th>
+                    </tr>
+                    <tr>
+                        <td>BS Information Technology</td>
+                        <td>USTP CDO Campus</td>
+                        <td>2028</td>
+                    </tr>
+                    <tr>
+                        <td>SeniorSchool</td>
+                        <td>Indahag National High School</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>High School</td>
+                        <td>Indahag National High School</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>BS Information Technology</td>
+                        <td>USTP CDO Campus</td>
+                        <td>2029</td>
+                    </tr>
+                </table>
+            </section>
 
-       <section class="card">
-            <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Name"><br><br>
-                <input type="email" placeholder="Email"><br><br>
-                <textarea placeholder="Message"></textarea><br><br>
-                <button type="submit">Send</button>
-            </form>
-        </section>
+            <section class="card">
+                <h2>Contact Me</h2>
+                <form>
+                    <input type="text" id="name" placeholder="Name"><br><br>
+                    <input type="email" id="email" placeholder="Email"><br><br>
+                    <textarea placeholder="Message"></textarea><br><br>
+                    
+                    <button type="submit" id="submitBtn">Send</button>
+                </form>
+            </section>
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2026 Vanessa Dajang. All rights reserved.</p>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@ function Education() {
         </thead>
         <tbody>
           <tr>
-            <td>BS Information Technology</td>
+            <td>College</td>
             <td>USTP CDO Campus</td>
             <td>2028</td>
           </tr>

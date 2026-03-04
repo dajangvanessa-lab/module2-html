@@ -19,17 +19,17 @@ function Education() {
           <tr>
             <td>Senior High School</td>
             <td>Indahag National High School</td>
-            <td>2019</td>
+            <td>2024</td>
           </tr>
           <tr>
             <td>High School</td>
             <td>Indahag National High School</td>
-            <td>2023</td>
+            <td>2022</td>
           </tr>
           <tr>
-            <td>BS Information Technology</td>
-            <td>USTP CDO Campus</td>
-            <td>2029</td>
+            <td>Elementary</td>
+            <td>Indahag Elemtary School</td>
+            <td>2018</td>
           </tr>
         </tbody>
       </table>

@@ -4,7 +4,6 @@ function About() {
   return (
     <section className="card"> 
       <h2>About Me</h2>
-      {/* Use the imported variable name inside curly braces */}
       <img src={profileImg} alt="Profile" style={{ width: '150px', borderRadius: '50%' }} />
       
       <p>I am a hardworking student.</p>

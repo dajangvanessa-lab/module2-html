@@ -1,4 +1,4 @@
-/* || Global Styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,15 +8,15 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* Original Grey */
+    background-color: #f4f4f4; 
     padding: 20px;
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* TASK 4: Dark Mode Styles [cite: 77] */
+
 .dark-mode {
-    background-color: #222; /* [cite: 78] */
-    color: white; /* [cite: 78] */
+    background-color: #222; 
+    color: white; 
 }
 
 .dark-mode .card {
@@ -28,21 +28,21 @@ body {
     background-color: #555;
 }
 
-/* || Layout & Containers */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
 }
 
 .card {
-    background: #FEE7F8; /* Original Pink */
+    background: #FEE7F8; 
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* || Typography */
+
 h1 {
     text-align: center;
     margin-bottom: 10px;
@@ -55,14 +55,14 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #0077cc; /* Original Blue */
+    color: #0077cc; 
 }
 
 a:hover {
     color: #005fa3;
 }
 
-/* || Tables */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -75,11 +75,11 @@ th, td {
 }
 
 th {
-    background-color: #0077cc; /* Original Blue */
+    background-color: #0077cc; 
     color: white;
 }
 
-/* || Forms & Buttons */
+
 form {
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@ input, textarea {
 
 button {
     padding: 10px;
-    background-color: #0077cc; /* Original Blue */
+    background-color: #0077cc; 
     color: white;
     border: none;
     cursor: pointer;
@@ -105,7 +105,7 @@ button:hover {
     background-color: #005fa3;
 }
 
-/* TASK 5: Hidden Class [cite: 98] */
+
 .hidden {
-    display: none; /* [cite: 99] */
+    display: none; 
 }
